@@ -1,0 +1,59 @@
+/* ========== GENERAL ========== */
+
+* {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #CED3DC;
+}
+
+/* ========== HEADER ========== */
+
+h1 {
+    font-family: 'Shadows Into Light';
+    font-weight: bold;
+}
+
+/* ========== DESCRIPTION ========== */
+
+.descricao {
+    font-size: 16px;
+    line-height: 25px;
+}
+
+/* ========== SKILLS ========== */
+
+ul.softSkills li {
+    font-size: 20px;
+}
+
+ul.hardSkills li {
+    font-size: 20px;
+}
+
+/* ========== EXTERNAL LINKS ========== */
+.github svg {
+    height: 25px;
+}
+.github {
+    background-color: #A31621;
+    text-decoration: none;
+    padding: 15px 30px;
+    color: white;
+}
+
+/* ========== INTERNAL LINKS ========== */
+
+.internalButton {
+    color: white;
+    background-color: #A31621;
+}
+
+.internalLinks li a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
