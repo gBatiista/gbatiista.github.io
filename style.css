@@ -1,103 +1,111 @@
 /* ========== GENERAL ========== */
 
 * {
-   
-    
-    box-sizing: border-box;
-    scroll-behavior: smooth;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: #CED3DC;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #ced3dc;
 }
 
 /* ========== HEADER ========== */
 
-h1 {
-    font-family: 'Shadows Into Light';
-    font-weight: bold;
+.nome h1 {
+  font-family: "Shadows Into Light";
+  font-weight: bold;
 }
 
-/* ========== DESCRIPTION ========== */
+.nome {
+  text-align: center;
+}
+
+/* ========== PERFIL ========== */
+
+.perfil {
+  text-align: center;
+}
+
+.perfil img {
+  float: left;
+  width: 250px;
+  border-radius: 50%;
+}
 
 .descricao {
-    font-size: 16px;
-    line-height: 25px;
+  font-size: 16px;
+  line-height: 25px;
+  padding-top: 4rem;
+  text-align: center;
 }
 
 /* ========== SKILLS ========== */
 
+.skills {
+  clear: left;
+  margin-top: 190px;
+}
+
 ul.softSkills li {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 ul.hardSkills li {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 /* ========== EXTERNAL LINKS ========== */
 
 .github {
-    background-color: #A31621;
-    text-decoration: none;
-    padding: 15px 30px;
-    color: white;
+  background-color: #a31621;
+  text-decoration: none;
+  padding: 15px 30px;
+  color: white;
 
-    display: flex;
-    margin-inline: auto;
-    width: 150px;
-    height: 50px;
-    justify-content: center;
-    align-items: center;
-    border-radius: 80% 35%;
+  display: flex;
+  margin-inline: auto;
+  width: 150px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 80% 35%;
 }
 
 .github svg {
-    height: 25px;
+  height: 25px;
 }
 
 /* ========== INTERNAL LINKS ========== */
 
 .internalButton {
-    /* color: white;
-    background-color: #A31621;
-    display: flex;
-    height: 25px;
-    width: 80px;
-    margin-block: 15px; */
+  background-color: #ced3dc;
+  padding: 1rem 2rem;
+  color: #a31621;
 
-    background-color: #CED3DC;
-    padding: 15px 30px;
-    color: #A31621;
-    
-    width: 230px;
-    height: 50px;
-    justify-content: center;
-    align-items: center;
-    border-radius: 35px;
+  width: 14.3rem;
+  height: 3.3rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2rem;
 }
 
 .internalLinks li a {
-    text-decoration: none;
-    font-size: 16px;
+  text-decoration: none;
+  font-size: 1rem;
 }
-
-
 
 /* ========== FOOTER ========== */
 footer {
-    background-color: #A31621;
-    height: 250px;
-    
+  background-color: #a31621;
+  height: 250px;
 }
 
 footer ul {
-    list-style: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: 100px;
-    gap: 20px;
-    
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 100px;
+  gap: 1.4rem;
 }
